@@ -12,11 +12,12 @@ A simple **Flask web application** created by **Suraj Suthar** to practice Flask
 ---
 
 ## 📂 Project Structure  
-simple-docker-flask-app/│
+``` simple-docker-flask-app/│
 ├── app.py # Main Flask application
 ├── Dockerfile # Docker build file
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
+```
 
 
  ## git clone https://github.com/Surajsuthar01/simple-docker-flask-app.git
