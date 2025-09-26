@@ -12,71 +12,37 @@ A simple **Flask web application** created by **Suraj Suthar** to practice Flask
 ---
 
 ## 📂 Project Structure  
-simple-docker-flask-app/
-│
+simple-docker-flask-app/│
 ├── app.py # Main Flask application
 ├── Dockerfile # Docker build file
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
 
-yaml
-Copy code
 
----
+ ## git clone https://github.com/Surajsuthar01/simple-docker-flask-app.git
 
-## 🔧 Installation & Setup (Without Docker)  
-
-### 1️⃣ Clone the repository  
-```bash
-git clone https://github.com/Surajsuthar01/simple-docker-flask-app.git
-cd simple-docker-flask-app
-2️⃣ (Optional) Create a virtual environment
-bash
-Copy code
-python3 -m venv venv
-source venv/bin/activate   # On Linux/Mac
-venv\Scripts\activate      # On Windows
-3️⃣ Install dependencies
-bash
-Copy code
-pip install -r requirements.txt
-4️⃣ Run the Flask app
-bash
-Copy code
-python app.py
 🌍 Accessing the App
 Once the server is running, open your browser and visit:
 
-http://127.0.0.1:5000/ → Hello ! Suraj Suthar
+http://127.0.0.1:80/ → Hello ! Suraj Suthar
 
-http://127.0.0.1:5000/health → Server is up and still running health is now 100 % Enjoy :)
+http://127.0.0.1:80/health → Server is up and still running health is now 100 % Enjoy :)
 
-http://127.0.0.1:5000/suraj → Suraj suthar is learning still devops .
+http://127.0.0.1:80/suraj → Suraj suthar is learning still devops .
 
-🐳 Running with Docker
+## 🐳 Running with Docker
 1️⃣ Build the Docker image
-bash
-Copy code
 docker build -t simple-docker-flask-app .
+
 2️⃣ Run a container
-bash
-Copy code
-docker run -d -p 5000:5000 simple-docker-flask-app
+docker run -d -p 80:80 simple-docker-flask-app
+
 3️⃣ Access the app
-👉 Go to: http://localhost:5000
+👉 Go to: http://localhost:80
 
-📦 Dependencies
-Python 3.7+
+## 📦 Dependencies
+## Python 3.7+
 
-Flask
-
-Docker (for containerization)
-
-📝 Author
-👤 Suraj Suthar
-💡 Learning DevOps, Cloud, and Software Development 🚀
-
-pgsql
-Copy code
-
-Would you like me to also **add badges** (Python, Flask, Docker, GitHub stars/forks) at the very top 
+## 📝 Author
+## 👤 Suraj Suthar
+## 💡 Learning DevOps, Cloud, and Software Development 🚀
