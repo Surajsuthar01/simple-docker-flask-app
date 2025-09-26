@@ -1,2 +1,2 @@
-###Simple flask APP 
-##Simple flask app to be run on ECS
+## Simple flask APP 
+# Simple flask app run in docker container
